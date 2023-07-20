@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.login{
+    position: relative;
+    background-color: rgb(66, 103, 178);
+    border: 5px solid rgb(66, 103, 178);
+    height: 80px;
+}
+.login h1{
+    color: white;
+    margin-left: 200px;
+}
+.email {
+    position: relative;
+    float: right;
+    bottom: 86%;
+    right: 31%;
+}
+
+.pass {
+    position: relative;
+    float: right;
+    bottom: 86%;
+}
+#login-btn{
+    margin-left: 5px;
+    border-radius: 2px;
+    border: none;
+    width: 22%;
+    font-weight: bold;
+    height: 21px;
+    background-color: rgb(38, 38, 121);
+    color: white;
+}
+
+.create-accnt{
+    position: relative;
+    margin-top: -10px;
+    width: 40%;
+    height: 520px;
+    left: 56%;
+}
+.create-accnt .gender{
+    font-size: 18px;
+}
+.create-accnt select{
+    width: 60px;
+    height: 6%;
+}
+.create-btn{
+    margin-top: 5px;
+    width: 193px;
+    border-radius: 2px;
+    height: 44px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(50, 128, 50);
+}
+.policy{
+    font-size: 14px;
+    position: relative;
+    width: 28%;
+    float: right;
+    right: 190px;
+    top: -16px;
+}
+a{
+    text-decoration: none;
+}
