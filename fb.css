@@ -1,7 +1,6 @@
 body{
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    overflow: hidden;
 }
 .login{
     position: relative;
@@ -22,6 +21,7 @@ body{
 
 .pass {
     position: relative;
+    left: 2%;
     float: right;
     bottom: 86%;
 }
@@ -30,6 +30,7 @@ body{
     border-radius: 2px;
     border: none;
     width: 22%;
+    font-size: 12px;
     font-weight: bold;
     height: 21px;
     background-color: rgb(38, 38, 121);
